@@ -17,23 +17,7 @@
 <script src="js1/min.js"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-var Author = {
-    //default config
-    config: {
-        el: '#author',
-        name: 'Author Name',
-        url: 'empty.com'
-    },
 
-    init: function (config) {
-      var cfg = this.config = $.extend({}, this.config, config);
-      $(cfg.el).html('<a href=' + cfg.url + '>');
-      $(cfg.el).innerHTML = cfg.name;
-    }
-};
-
-
-});
 </script>
 <style>
 
